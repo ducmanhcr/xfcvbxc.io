@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+  .job-grid {
+    grid-template-columns: repeat(1, 1.5fr);
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: autopx;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+}
+.job-box-grid {
+  .job-title {
+    margin-top: 50px;
+  }
+  .job-content {
+    margin-top: 100px;
+  }
+  .job-icon1 {
+    margin-top: -30px;
+  }
+}
+.ki-nang {
+  margin-left: 20px;
+}
+.chiacot {
+  grid-template-columns: repeat(1, 1fr);
+}
+#certificate {
+  margin-top: 40px;
+}
+
+#certificate img {
+  width: 100%;
+}
+#certificate #block {
+  border-bottom: 1px solid #d6c08d;
+}
+
+#certificate #block:nth-child(3) {
+  border: none;
+}
+
+#certificate #block:nth-child(2)::before {
+  display: none;
+}
+
+#certificate #block .text {
+  line-height: 1.5;
+}
+#certificate #block span {
+  line-height: 1.5;
+}
+.container{
+  width: 100% !important;
+}
+.section-title{
+  font-size: 30px !important;
+  text-align: center;
+}
+.hihi a:link,
+a:visited {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  row-gap: 10px;
+}

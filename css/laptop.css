@@ -1,0 +1,379 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #e4dede;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+.banner1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-nav h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.text-nav span {
+  font-size: 16px;
+  color: #c4baba;
+}
+.text-nav {
+  display: inline-block;
+  margin: 10px 70px 0;
+}
+.container1 {
+  margin-left: 10px;
+  text-align: center;
+  padding-left: 4%;
+}
+.container1 a {
+  border-left: 1.5px solid rgb(194, 187, 187);
+  padding: 40px 5px 1px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+  line-height: 2;
+  margin-top: 40px;
+}
+
+.mt-40 {
+  margin-bottom: 40px;
+}
+li span {
+  font-weight: bold;
+}
+.section-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+#target {
+  padding: 40px 40px;
+  background-color: rgb(187, 204, 204);
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgb(194, 206, 206);
+}
+/*----------------------------------------------------------------*/
+#personal-info {
+  padding: 40px 40px;
+  background-color: rgb(187, 204, 204);
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgb(194, 206, 206);
+}
+/*---------------------an thong tin ca nhan-------------------------------------------*/
+
+.hidden {
+  display: none;
+}
+
+#personal-info .mt-40-info {
+  display: none;
+}
+#personal-info .icon-twitter {
+  display: none;
+}
+#personal-info .icon-facebook {
+  display: none;
+}
+#personal-info .icon-gplus {
+  display: none;
+}
+#personal-info .icon-linkedin {
+  display: none;
+}
+.job-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.job-box-grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  column-gap: 20px;
+  row-gap: 60px;
+  border: 1px solid rgb(163, 149, 149);
+  align-items: center;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/* display none content*/
+.job-content {
+  display: none;
+}
+.View-more,
+.less-more {
+  display: none;
+}
+.now {
+  background-color: rgb(119, 119, 223);
+  padding: 2px 4px;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.job-title {
+  font-size: 15pt;
+  margin-left: 18px;
+}
+h3::before {
+  content: ". ";
+}
+h3::before {
+  content: ". ";
+  color: rgb(20, 37, 194);
+  font-size: 80px;
+  margin-right: 5px;
+}
+.job-box-hocvan {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  column-gap: 20px;
+  row-gap: 60px;
+  border: 1px solid rgb(175, 153, 153);
+  margin-top: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.list {
+  padding-bottom: 12px;
+}
+.iconboder {
+  border: 2px solid rgb(97, 219, 209); 
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 25px;
+}
+.khoangtrang {
+  margin-left: 22px;
+}
+.zxc{
+  display: flex;
+  margin-top: 10px;
+}
+
+.iconrac {
+  display: flex;
+ margin-top: 50px;
+ 
+}
+
+.good {
+  background-color: rgb(7, 70, 151);
+  display: inline-block;
+  height: 4px;
+  width: 50px;
+  margin-right: 13px;
+  border-radius: 12px;
+}
+.bad {
+  background-color: rgb(218, 226, 230);
+  height: 4px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+span {
+  font-style: italic;
+}
+.job-icon1 {
+  margin-top: -90px;
+}
+p {
+  line-height: 1.5;
+}
+h2 {
+  font-size: 18px;
+}
+.img-chungchi {
+  width: 240px;
+  margin-right: 20px;
+}
+.cer-grid {
+  display: flex;
+
+  gap: 20px;
+}
+.aaa {
+  margin-bottom: 40px;
+}
+
+.chiacot {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+
+.margintop {
+  margin-top: 80px;
+  border-top: 2px solid #d6c08d;
+  padding-top: 30px;
+  grid-column: 1/-1;
+}
+.marginright {
+  border-left: 2px solid #d6c08d;
+  padding-left: 20px;
+  height: 120px;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+}
+.project-flex {
+  display: flex;
+  flex-direction: column;
+}
+.project-title {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-left: 1px solid rgb(226, 205, 217);
+  border-right: 1px solid rgb(226, 205, 217);
+  border-bottom: 1px solid rgb(226, 205, 217);
+}
+.project-boder {
+  border-left: 1px solid rgb(226, 205, 217);
+  border-right: 1px solid rgb(226, 205, 217);
+  border-bottom: 1px solid rgb(226, 205, 217);
+  margin-top: 0px;
+  padding: 10px 20px 10px;
+}
+td {
+  padding: 10px;
+  font-weight: bold;
+}
+
+tr td:first-child {
+  width: 100px;
+  vertical-align: top;
+}
+.as2 {
+  border-collapse: collapse;
+}
+tr {
+  border: 1px solid rgb(226, 205, 217);
+}
+.as1 {
+  border-collapse: collapse;
+}
+.as3 {
+  border-collapse: collapse;
+}
+a {
+  font-size: 20px;
+}
+.container3 {
+  line-height: 1.5pt;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.hihi a:link,
+a:visited {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  row-gap: 10px;
+}
+.icon-facebook-circled {
+  color: blue;
+}
+.icon-linkedin-circled {
+  color: blue;
+}
+.icon-github-circled {
+  color: blue;
+}
+.avt-default {
+  height: 180px;
+  width: 160px;
+  border-radius: 50%;
+  margin-left: 70px;
+  padding: 10px;
+  background-color: #ffff;
+}
+.avt {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+/* ------------------------------------- style certificate ------------------------------------- */
+#certificate {
+  margin-top: 40px;
+}
+
+#certificate #block {
+  border-bottom: 1px solid #d6c08d;
+}
+#certificate img {
+  width: 50%;
+}
+#certificate #block:nth-child(2)::before {
+  content: "";
+  background-color: #d6c08d;
+  position: absolute;
+  margin-left: -30px;
+  width: 1px;
+  height: 190px;
+}
+
+#certificate #block:nth-child(3) {
+  border: none;
+}
+
+#certificate #block .text {
+  line-height: 1.5;
+  font-weight: bold;
+}
+#certificate #block span {
+  line-height: 1.5;
+  font-weight: normal;
+}
+.icon-lamp {
+  margin-left: 10px;
+}
+.img-fluid {
+  width: 300px !important;
+  height: 50% !important;
+}
+#btnviewmore {
+  display: none;
+  border-radius: 25px;
+}
+.hover:hover #btnviewmore {
+  display: inline-block;
+}
+.job-st{
+  grid-column: 2/-1;
+  margin: 10px;
+}
+.square li::marker {
+  color: rgb(4, 15, 175);
+}

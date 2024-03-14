@@ -1,0 +1,70 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 20px;
+    margin-right: 1.5rem;
+    padding-bottom: 30px;
+  }
+}
+.container {
+  .cer-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+/* --------------------------------------------------- style certificate ----------------------------------------------*/
+#certificate {
+  margin-top: 40px;
+}
+
+#certificate img {
+  width: 100%;
+}
+#certificate #block {
+  border-bottom: 1px solid #d6c08d;
+}
+
+#certificate #block:nth-child(2)::before {
+  margin-left: -10px;
+  margin-top: 15px;
+  height: 280px;
+}
+
+#certificate #block:nth-child(3) {
+  border: none;
+}
+
+#certificate #block .text {
+  line-height: 1.5;
+}
+#certificate #block span {
+  line-height: 1.5;
+}
+
+.project-title {
+  font-size: 12px;
+}
+.project-boder {
+  font-size: 14px;
+}
+.as1 {
+  font-size: 12px;
+}
+.icon-lamp {
+  margin-left: 50px;
+}
+.iconboder {
+  border: 2px solid rgb(97, 219, 209); 
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 31px;
+}
+.khoangtrang {
+  margin-left: 30px;
+}

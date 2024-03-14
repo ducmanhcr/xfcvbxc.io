@@ -1,0 +1,21 @@
+.mr-2 {
+    margin-right: 45px;
+  }
+  
+  .dashed-border {
+    border-bottom: 1px dashed #007bff;
+  }
+  .text {
+    color: blue;
+  }
+  .col {
+    background-color: rgb(244, 241, 241);
+  }
+  
+  .ml-2 {
+    margin-left: 10px;
+  }
+  .mr2 {
+    margin-right: 45px;
+  }
+  
